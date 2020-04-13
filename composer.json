@@ -1,0 +1,28 @@
+{
+    "name": "camrymps/super-tags",
+    "description": "Laravel package for applying tags to models.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Scott",
+            "email": "camrymps@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Camrymps\\SuperTags\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "require": {
+        "laravel/framework": "^6.0|^7.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^5.1",
+        "phpunit/phpunit": "^8.5"
+    }
+}
